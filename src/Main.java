@@ -13,6 +13,16 @@ public class Main {
         }else {
             System.out.println("draw");
         }
+
+        /*---------------------------------------------------------------------*/
+        if ((line1[1] == 2 && line2[1] == 2 && line3[1] == 2 || (line2[0] == 2 && line2[1] == 2 && line2[2] == 2))){
+            System.out.println("winner winner chicken dinner");
+        } else if ((line1[1] == 1 && line2[1] == 1 && line3[1] == 1 || (line2[0] == 1 && line2[1] == 1 && line2[2] == 1))){
+            System.out.println("noup again");
+        }else {
+            System.out.println("draw again");
+        }
+
     }
 }
 
